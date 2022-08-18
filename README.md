@@ -13,7 +13,7 @@
 
 ## About
 
-An application to share Offers & Coupons. LaraPrice was developed using PHP Language and Laravel Framework.<br>
+An application to share offers & coupons. LaraPrice was developed using PHP Language and Laravel Framework.<br>
 This is a non-profit project. All prototypes, software code, design and illustrations are created for educational purposes only.
 
 <img alt="LaraPrice" title="#LaraPrice" src="public/github/readme-1.png" />
