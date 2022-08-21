@@ -28,37 +28,39 @@ In addition, it is good to have an editor to work with the code like <strong><a 
 
 ### Installation
 First, clone this repository, install the dependencies, and setup your <code>.env</code> file.
-```
-git clone https://github.com/brunopas/laravel-price.git
-composer install
-cp .env.example .env
+```bash
+$ git clone https://github.com/brunopas/laravel-price.git
+$ cd laravel-price
+
+$ composer install
+$ cp .env.example .env
 ```
 This app uses <strong><a href="https://www.mysql.com/">MySQL</a></strong>. To use something different, open up <code>config/Database.php</code> and change the default driver.<br>
 To use MySQL, make sure you install it, setup a database and then add your DB credentials (database, username and password) to the <code>.env</code> file.
 
 ### Database Setup
 Then, create the necessary database.
-```
+```bash
 php artisan db
-create database laravel_price
+$ create database laravel_price
 ```
 
 ### Migrations
 Finally, run the initial migrations and seeders.
-```
-php artisan migrate --seed
+```bash
+$ php artisan migrate --seed
 ```
 
 ### File Uploading
 When uploading files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
-```
-php artisan storage:link
+```bash
+$ php artisan storage:link
 ```
 
 ### Running The App
 To serve the application on the PHP development server, run the following command:
-```
-php artisan serve
+```bash
+$ php artisan serve
 ```
 
 ---
@@ -68,8 +70,6 @@ php artisan serve
 The following tools were used to build the project:
 -   **[PHP](https://www.php.net/)** >= 8.0.2
 -   **[Laravel Framework](https://laravel.com/)** >= 9.19
--   **[Laravel Blade](https://laravel.com/)**
--   **[Redis](https://redis.io/)**
 -   **[Tailwind CSS](https://tailwindcss.com/)**
 -   **[MySQL](https://www.mysql.com/)**
 
