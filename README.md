@@ -41,7 +41,7 @@ To use MySQL, make sure you install it, setup a database and then add your DB cr
 ### Database Setup
 Then, create the necessary database.
 ```bash
-php artisan db
+$ php artisan db
 $ create database laravel_price
 ```
 
